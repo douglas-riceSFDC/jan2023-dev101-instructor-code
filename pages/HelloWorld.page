@@ -1,0 +1,7 @@
+<apex:page standardController="Timesheet__c" extensions="HelloWorldController">
+
+    <h1>{!WelcomeMessage}</h1>
+    <!-- /apex/HelloWorld?Id=a008F000002uj9D -->
+
+    <apex:image width="200" url="{! $Resource.companylogo }" />
+</apex:page>

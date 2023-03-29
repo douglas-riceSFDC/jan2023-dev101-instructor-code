@@ -1,0 +1,13 @@
+<template>
+    <c-approve-or-reject-timesheets-table timesheets={timesheets}
+                                          title={title}
+                                          onapproveorreject={handleApproveOrRejectTimesheets}
+    ></c-approve-or-reject-timesheets-table>
+
+    <template lwc:if={page0}>
+        <!-- page0 -->
+    </template>
+    <template lwc:if={page1}>
+        <!-- page1 -->
+    </template>
+</template>
